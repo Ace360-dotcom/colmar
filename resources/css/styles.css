@@ -1,0 +1,39 @@
+body{
+    font-family: calibri;
+}
+
+menu p img{
+    padding-left: 24px;
+    height: 70px   ;
+}
+menu p span{
+    font-size:32px;
+    position:relative;
+    bottom: 25px;
+    font-weight: 500;
+}
+#aca{
+    font-size:32px;
+    position:relative;
+    top: 0px;
+    font-weight: 500;
+    color:gray;
+}
+menu ul{
+    padding-right: 48px;
+}
+menu ul li{
+    display: inline;
+    font-size: 28px;
+    padding:8px;
+    font-weight: lighter;
+    position: relative;
+    top:15px;
+}
+
+menu{
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 20px;
+}
