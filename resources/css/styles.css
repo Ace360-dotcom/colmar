@@ -1,6 +1,7 @@
 html{
     font-family: calibri;
     font-size:32px;
+    color:rgba(0, 0, 0, 0.748);
 }
 
 menu p img{
@@ -49,9 +50,8 @@ menu{
 
 .banner img{
     height: 700px;
-    width:980px;
+    width:60%;
     padding: 32px 72px;
-   
 }
 .banner div{
     display: flex;
@@ -80,5 +80,61 @@ menu{
 }
 .banner div a:hover{
     background-color: black;
+    color: white;
+}
+.informationMain{
+    display: flex;
+}
+
+
+.informationMain .first{
+    width:60%;
+    padding-right: 72px;
+}
+.informationMain aside {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+
+}
+.informationMain .first img{
+    padding: 0px 72px;
+}
+.informationMain .first h1,.informationMain .first p{
+    padding: 0px 72px;
+
+}
+
+.informationMain aside section{
+    display: flex;
+    border: solid gainsboro;
+    margin-bottom: 115px;
+}
+.informationMain aside section:hover{
+    background-color: gainsboro;
+}
+
+.informationMain aside section img{
+    height: auto;
+    width: 35%;
+   
+}
+.informationMain aside section div h2{
+    padding-left: 30px;
+    font-size: 0.90rem;
+}
+.informationMain aside section div p,
+.informationMain aside section div a{
+    font-size: 0.70rem;
+    padding-left: 30px;
+  
+}
+.informationMain aside section div a{
+    color:blue;
+    cursor: pointer;
+    transition-duration:0.4s;
+}
+
+.informationMain aside section div a:hover{
     color: white;
 }
