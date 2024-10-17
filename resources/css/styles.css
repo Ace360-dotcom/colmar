@@ -138,3 +138,40 @@ menu{
 .informationMain aside section div a:hover{
     color: white;
 }
+.startLearning article{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+.startLearning section{
+    background-color: whitesmoke;
+    width: 30%;
+    text-wrap: wrap;
+    cursor:pointer
+   
+}
+.startLearning section:hover{
+    background-color:lightskyblue;
+}
+.startLearning{
+    background-color: gainsboro;
+}
+.startLearning h1{
+    text-align: center; 
+}
+h3{
+    font-size:1rem;
+    padding-left:32px;
+    
+}
+.startLearning p{
+    font-size: 0.70rem;
+    padding-left:32px;
+}
+
+.startLearning img{
+    width: 100%;
+}
+
